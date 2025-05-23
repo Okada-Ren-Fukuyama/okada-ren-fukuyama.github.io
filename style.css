@@ -1,0 +1,59 @@
+h1{
+color:blue;
+font-size:250%;
+}
+div{
+width:1000px;
+margin-right:auto;
+margin-left:auto;
+}
+h1,h2,li,footer{
+text-align:center;
+font-family: "Roboto", sans-serif;}
+li{
+list-style:none;
+width:33%;
+float:left;
+}
+ul:after{
+content:"";
+display:block;
+clear:both;
+}
+ul{
+padding:0;
+}
+li a{
+color:#000;
+}
+li a:hover{
+text-decoration:none;
+}
+header{
+border-top:solid 10px #c2e08f;
+}
+table {
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* 横縞ストライプ */
+tr:nth-child(even) {
+  background-color: #fff8e1;
+}
+
+tr:nth-child(odd) {
+  background-color: #fef5cc;
+}
